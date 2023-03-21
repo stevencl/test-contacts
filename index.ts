@@ -3,10 +3,7 @@ import bodyParser from 'body-parser';
 
 interface User {
   id: number;
-  name: string;
-  job: string;
   city: string;
-  email: string;
 }
 
 const app = express();
@@ -16,7 +13,6 @@ let users: User[] = [];
 app.use(bodyParser.json());
 
 app.get('/users', (req, res) => {
-  const timezone = req.get('Timezone');
   res.send(users);
 });
 
