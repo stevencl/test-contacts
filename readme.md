@@ -8,4 +8,6 @@ Making it easier to find people in the company.
 - [ ] Load in-memory user data from JSON file.
 - [ ] Move `port` configuration to .env file.
 - [ ] Secures the addressbook with username/password (use `passport` library).
-- [ ] Maybe: Add countries, country code and timezone for each user.
+- [ ] Add countries, country code and timezone for each user.
+- [ ] Add tests that execute at least one route.
+- [ ] Add a GH action to run tests on commit.
