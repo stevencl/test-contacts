@@ -3,6 +3,7 @@ import bodyParser from 'body-parser';
 
 interface User {
   id: number;
+  name: string,
   city: string;
 }
 
